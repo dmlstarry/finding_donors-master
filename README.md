@@ -1,19 +1,6 @@
 # 机器学习纳米学位
 # 监督学习
 ## 项目: 为CharityML寻找捐献者
-### 安装
-
-这个项目要求使用 Python 2.7 并且需要安装下面这些python包：
-
-- [Python 2.7](https://www.python.org/download/releases/2.7/)
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
-- [matplotlib](http://matplotlib.org/)
-
-你同样需要安装好相应软件使之能够运行 [iPython Notebook](http://ipython.org/notebook.html)
-
-优达学城推荐学生安装[Anaconda](https://www.continuum.io/downloads), 这是一个已经打包好的python发行版，它包含了我们这个项目需要的所有的库和软件。
 
 ### 代码
 
@@ -22,14 +9,8 @@
 注意包含在`visuals.py`中的代码设计成一个外部导入的功能，而不是打算学生去修改。如果你对notebook中创建的可视化感兴趣，你也可以去查看这些代码。
 
 
-### 运行
-在命令行中，确保当前目录为 `finding_donors/` 文件夹的最顶层（目录包含本 README 文件），运行下列命令：
-
-```bash
-jupyter notebook finding_donors.ipynb
-```
-
-​这会启动 Jupyter Notebook 并把项目文件打开在你的浏览器中。
+### 项目背景
+CharityML 是一家位于硅谷核心地带的慈善机构，它致力于为想学机器学习的学生提供经济上的帮助。在社区中发出了32000多封捐赠信之后，他们发现他们收到的每一笔捐赠，都来自年收入5万美金以上的人。为了拓展他们的捐赠池，CharityML决定向加州居民发送一封信，信只发给那些最有可能捐助的人。因为加州的工作人群有一千五百万， CharityML雇佣你来帮他们构建一个最好的算法，来识别最有可能的捐赠者以降低发送信件的成本。你的目标是评估和优化几个不同的监督学习算法来决定哪个算法能给出最高的捐赠者识别率，以降低总计的发信数量。
 
 ### 数据
 
